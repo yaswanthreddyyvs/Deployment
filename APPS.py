@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load model and scaler
-model = joblib.load("xgboost_model.joblib")
+model = joblib.load("XGBoost_model.joblib")
 scaler = joblib.load("scaler.joblib")  # comment out if not using
 
 st.set_page_config(page_title="System Failure Prediction", layout="centered")
